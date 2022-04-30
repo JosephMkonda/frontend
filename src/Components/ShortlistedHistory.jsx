@@ -49,7 +49,8 @@ function History() {
      */
     const  handleChange = (event) => {
       setSelected(event.target.value);
-      getApplicantsInAYear(selected)
+      console.log("Selected :"+selected + "Target : "+event.target.value)
+      getApplicantsInAYear(event.target.value)
     }
  
   return (
