@@ -19,7 +19,7 @@ function AllBenefiaries() {
     const baseUrl = "http://localhost:5000/application/getBeneficiaries"
 
     /**
-     * When the component mounts, get the data from the API and set the state to the data.
+     * When the component moun`ts, get the data from the API and set the state to the data.
      */
     const getAllbeneficiaries = () => {
         axios.get(baseUrl)
